@@ -1,0 +1,152 @@
+.back-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    gap: 20px; 
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+
+    position: relative;
+    width: 100%;
+    font-family: "Quicksand", serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+    }
+    .main-header{
+    
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        color: #21867a;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+
+    .back-exercise-card{
+        margin-top: 20px;
+        width: 550px;
+        box-sizing: border-box;
+      }
+
+      .back-card-container {
+        display: flex; 
+        flex-wrap: wrap; 
+        flex-direction: row;
+        justify-content: space-evenly; 
+        gap: 20px; 
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .mini-text{
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+      }
+
+      .header-1{
+        
+        justify-content:space-between;
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 50px;
+        color: #21867a;
+        margin-bottom: 20px;
+      }
+     .back-button{
+        right: 630px;
+        
+      }
+
+      footer{
+        display: flex;
+        background-color: whitesmoke;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+        padding: 10px 0;
+        
+      }
+    
+     .first-part{
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      
+     }
+     .text-first {
+      color: black;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      
+     
+    }
+     .about {
+      display: flex;
+      align-items: center;
+    }
+     .info{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+     }
+     .contact{
+      margin-right: 8px;
+    
+     }
+     .contact-i{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+     }
+     .faq-i{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+     }
+     .second-part{
+      display: flex;
+      flex-direction: column;
+    
+     }
+     .logo-part .logo{
+      width: 100px;
+      height: 100px;
+      opacity: 70%;
+     }
+     .cookie-i{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+     }
+     .quality-i{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+     }
+     .shield-i{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+     }
+      
+      

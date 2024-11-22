@@ -1,3 +1,4 @@
+
 .mainpage {
     display: flex;
     flex-direction: column;
@@ -7,7 +8,19 @@
     background-color: #f5f5f5;
     color: #333;
     text-align: center;
-    font-family: system-ui;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  header {
+
+  position: relative;
+  width: 100%;
+  font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
   }
   
   .mainpage h1 {
@@ -20,6 +33,10 @@
     font-size: 19px; 
     color: #555;
     max-width: 600px;
+    font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
   }
   
   .button-container {
@@ -46,6 +63,7 @@
     width: 300px; 
     height: auto; 
     margin-bottom: 20px; 
+    justify-content: center;
   }
   .fitness1{
     width: 300px; 
@@ -57,46 +75,168 @@
     justify-content: center; 
     align-items: center; 
     height: 800px; 
-    
+    font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   
   }
   .card-container {
-   font-family: "Inter, Helvetica, Arial, -apple-system, sans-serif";
+  
     display: flex;
     flex-direction: column;
     align-items: center;
+  font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   
+  }
+  .logo-and-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    
+    
+  }
+  .in-card-container{
+    
+      display: flex; 
+      flex-wrap: wrap; 
+      flex-direction: column;
+      justify-content: space-evenly; 
+      gap: 20px; 
+      font-family: "Quicksand", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    
   }
   .card{
-    font-family: "Inter, Helvetica, Arial, -apple-system, sans-serif";
+   
     max-width: 600px;
     margin-bottom: 50px;
+    font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
     
   }
   .card-2{
-    font-family: "Inter, Helvetica, Arial, -apple-system, sans-serif";
+    
     max-width: 600px;
     margin-bottom: 50px;
-    
+    font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
   }
   .card-3{
-    font-family: "Inter, Helvetica, Arial, -apple-system, sans-serif";
+   
     max-width: 600px;
     margin-bottom: 50px;
-    
+    font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
   }
   .baslik{
     color: #21867a;
+   
 
   }
-  .button-card-container{
+  /*.button-card-container{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     color: #21867a;
-  }
+  }*/
  
   .link{
     color: white;
-    text-decoration: none;
-    font-family: "roboto", "Helvetica Neue", Helvetica, Arial
+   text-decoration: none;
+   font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+  }
+
+  footer{
+    display: flex;
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
     
   }
+
+ .first-part{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  
+ }
+ .text-first {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  
+ 
+}
+ .about {
+  display: flex;
+  align-items: center;
+}
+ .info{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+ }
+ .contact{
+  margin-right: 8px;
+
+ }
+ .contact-i{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+ }
+ .faq-i{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+ }
+ .second-part{
+  display: flex;
+  flex-direction: column;
+
+ }
+ .logo-part .logo{
+  width: 100px;
+  height: 100px;
+  opacity: 70%;
+ }
+ .cookie-i{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+ }
+ .quality-i{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+ }
+ .shield-i{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+ }
+
+ 

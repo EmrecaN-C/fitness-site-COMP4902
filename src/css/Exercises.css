@@ -1,45 +1,132 @@
-.exercise-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 800px; 
-    background-color: #f5f5f5;
-    color: #333;
-    text-align: center;
-    font-family: system-ui;
-  }
-  
-  .exercise-page h1 {
-    font-size: 40px;
-    color: #2a9d8f;
-  }
-  
-  .exercise-page p {
-    font-size: 19px;
-    color: #555;
-    max-width: 600px;
-  }
-  
+
+.exercise-card-container {
+    
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  gap: 20px; 
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ }
+ .exercise-card{
+  width: 250px ;
+}
   .exercise-list {
     margin-top: 20px;
   }
-  .exercise-card-container {
-    font-family: "Inter, Helvetica, Arial, -apple-system, sans-serif";
+  
+  
+   .in-exercise-card-container{
+    
     display: flex; 
     flex-wrap: wrap; 
+    flex-direction: row;
     justify-content: space-evenly; 
     gap: 20px; 
-   }
-   .exercise-card{
-     font-family: "Inter, Helvetica, Arial, -apple-system, sans-serif";
-     width: 300px;
-     
-   }
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+}
    .button{
     color: #21867a;
     background-color: #21867a;
     width: 100%;
     font-size: 1.5rem;
     padding: 12px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
    }
+
+   header {
+
+    position: relative;
+    width: 100%;
+    font-family: "Quicksand", serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+    }
+
+    footer{
+      display: flex;
+      background-color: whitesmoke;
+      text-align: center;
+      justify-content: space-around;
+      width: 100%;
+      padding: 10px 0;
+      
+    }
+  
+   .first-part{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+   }
+   .text-first {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    
+   
+  }
+   .about {
+    display: flex;
+    align-items: center;
+  }
+   .info{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+   }
+   .contact{
+    margin-right: 8px;
+  
+   }
+   .contact-i{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+   }
+   .faq-i{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+   }
+   .second-part{
+    display: flex;
+    flex-direction: column;
+  
+   }
+   .logo-part .logo{
+    width: 100px;
+    height: 100px;
+    opacity: 70%;
+   }
+   .cookie-i{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+   }
+   .quality-i{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+   }
+   .shield-i{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+   }
+  
